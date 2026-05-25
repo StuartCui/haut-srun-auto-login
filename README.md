@@ -234,7 +234,7 @@ config2.json
 添加：
 
 ```bash
-(sleep 2 && /srun/hgut-srun.sh start) &
+(sleep 2 && /srun/haut-srun.sh start) &
 ```
 
 保存后重启路由器即可。
