@@ -133,7 +133,7 @@ baidu.com
 
 ```text
 /srun
-├── hgut-srun.sh
+├── haut-srun.sh
 ├── srun
 ├── config.json
 ├── config1.json
@@ -166,7 +166,7 @@ mkdir /srun
 
 包括：
 
-- `hgut-srun.sh`
+- `haut-srun.sh`
 - `srun`
 - `config.json`
 
@@ -181,7 +181,7 @@ mkdir /srun
 # 3. 添加执行权限
 
 ```bash
-chmod +x /srun/hgut-srun.sh
+chmod +x /srun/haut-srun.sh
 chmod +x /srun/srun
 ```
 
@@ -246,7 +246,7 @@ config2.json
 ## 启动
 
 ```bash
-/srun/hgut-srun.sh start
+/srun/haut-srun.sh start
 ```
 
 ---
@@ -254,7 +254,7 @@ config2.json
 ## 手动登录
 
 ```bash
-/srun/hgut-srun.sh login
+/srun/haut-srun.sh login
 ```
 
 ---
@@ -262,7 +262,7 @@ config2.json
 ## 切换账号登录
 
 ```bash
-/srun/hgut-srun.sh login_next
+/srun/haut-srun.sh login_next
 ```
 
 ---
@@ -270,7 +270,7 @@ config2.json
 ## 启动 Watchdog
 
 ```bash
-/srun/hgut-srun.sh watchdog
+/srun/haut-srun.sh watchdog
 ```
 
 ---
@@ -278,7 +278,7 @@ config2.json
 ## 查看状态
 
 ```bash
-/srun/hgut-srun.sh status
+/srun/haut-srun.sh status
 ```
 
 ---
